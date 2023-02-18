@@ -21,12 +21,26 @@ h1, h2 {
     color: black;
 }
 
-#logo {
+#logo-image {
     float: left;
     height: 60px;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
+    
 }
 
 #logo-text {
     font-size: 280%;
+    padding: auto;    
+}
+
+#header-button {
+    font-size: 50%;
+    letter-spacing: 4px;
+    float: right;
+    padding-right: 50px;
+}
+
+#logo-image, #logo-text, #header-button {
+    line-height: 75px;
+
 }
