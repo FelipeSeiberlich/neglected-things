@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Serif+Khojki:wght@500&family=Oswald:wght@300&display=swap');
 
 * {
-    margin 0;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -19,12 +19,18 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
 #logo-image {
     float: left;
-    height: 60px;
-    padding: 0 5px 0 0;
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
@@ -44,10 +50,9 @@ h1, h2 {
     border: none;
     margin: 0px 2px;  
     padding: 0px 32px;   
-    display: inline-block;
     cursor: pointer;
 }
-
+ 
 #logo-image, #logo-text, #header-button {
     line-height: 75px;
 
