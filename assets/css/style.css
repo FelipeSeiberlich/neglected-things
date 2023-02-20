@@ -105,6 +105,24 @@ h1, h2 {
     color: black;
     border: none;
     margin: 0px 2px;  
-    padding: 5px 32px;   
+    padding: 5px 30px;   
     cursor: pointer;
+}
+
+#skip-button {
+    letter-spacing: 4px;
+    font-size: 150%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+    border: none;
+    margin: 0px 2px;  
+    padding: 5px 30px;   
+    cursor: pointer;
+
+    bottom: 50px;
+    left: 1600px;
+
+    position: absolute;
 }
