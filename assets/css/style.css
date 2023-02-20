@@ -126,3 +126,24 @@ h1, h2 {
 
     position: absolute;
 }
+
+/* Footer and social media icons*/
+
+footer {
+    height: 50px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1px;
+    padding: 10px 75px;
+    color: black;
+}
