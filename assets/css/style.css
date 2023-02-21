@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
 }
-  
+
 body {
     font-family: Lato, sans-serif;
     font-size: 300;
@@ -14,7 +14,8 @@ body {
 
 /* Headings and Logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -31,12 +32,12 @@ h1, h2 {
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    
+
 }
 
 #logo-text {
     font-size: 280%;
-    padding: auto;    
+    padding: auto;
 }
 
 #header-button {
@@ -48,12 +49,14 @@ h1, h2 {
     background-color: white;
     color: black;
     border: none;
-    margin: 0px 2px;  
-    padding: 0px 32px;   
+    margin: 0px 2px;
+    padding: 0px 32px;
     cursor: pointer;
 }
- 
-#logo-image, #logo-text, #header-button {
+
+#logo-image,
+#logo-text,
+#header-button {
     line-height: 75px;
 
 }
@@ -70,7 +73,8 @@ h1, h2 {
     overflow: hidden;
 }
 
-#cover-text-video, #cover-text-video h1 {
+#cover-text-video,
+#cover-text-video h1 {
     color: white;
     text-align: center;
 }
@@ -104,8 +108,8 @@ h1, h2 {
     background-color: white;
     color: black;
     border: none;
-    margin: 0px 2px;  
-    padding: 5px 30px;   
+    margin: 0px 2px;
+    padding: 5px 30px;
     cursor: pointer;
 }
 
@@ -117,8 +121,8 @@ h1, h2 {
     color: white;
     opacity: .7;
     border: none;
-    margin: 0px 2px;  
-    padding: 5px 30px;   
+    margin: 0px 2px;
+    padding: 5px 30px;
     cursor: pointer;
 
     bottom: 50px;
@@ -137,7 +141,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -147,3 +151,21 @@ footer {
     padding: 10px 75px;
     color: black;
 }
+
+/* Home page*/
+/* Home main background image*/
+
+#home-image {
+    height: 750px;
+    width: 100%;
+
+    position: relative;
+    background: url(../images/home-image.png);
+}
+
+#home-image ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
