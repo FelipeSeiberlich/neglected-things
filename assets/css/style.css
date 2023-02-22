@@ -163,9 +163,35 @@ footer {
     background: url(../images/home-image.png);
 }
 
+#home-image div {}
+
 #home-image ul {
+    background-color: #333;
     list-style-type: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
+
+    position: absolute;
+    right: 30px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+#home-image li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#home-image li a {
+    color: white;
+    text-align: center;
+    padding: 10px, 15px;
+    text-decoration: none;
+}
+
+#home-image li a:hover {
+    background-color: #111;
+}
