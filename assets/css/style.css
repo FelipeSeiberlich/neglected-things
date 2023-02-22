@@ -30,7 +30,7 @@ h2 {
     height: 50px;
     width: 50px;
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 15px; 
     padding-right: 15px;
 
 }
@@ -153,7 +153,7 @@ footer {
 }
 
 /* Home page*/
-/* Home main background image*/
+/* Home / main background image*/
 
 #home-image {
     height: 750px;
@@ -161,6 +161,8 @@ footer {
 
     position: relative;
     background: url(../images/home-image.png);
+    background-position: center 30%;
+    
 }
 
 #home-image div {}
@@ -195,4 +197,29 @@ footer {
 #home-image li a:hover {
     background-color: #111;
     color: white;
+}
+
+#cover-text-image {
+    font-size: 170%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(134, 169, 180, .7);
+
+    bottom: 300px;
+    left: 120px;
+
+    position: absolute;
+}
+
+#cover-text-image h1 {
+    color: white;
+    text-align: center;
 }
