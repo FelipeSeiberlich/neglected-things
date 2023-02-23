@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-}
+} 
 
 body {
     font-family: Lato, sans-serif;
@@ -32,7 +32,6 @@ h2 {
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 #logo-text {
@@ -97,7 +96,6 @@ h2 {
     left: 120px;
 
     position: absolute;
-
 }
 
 #cover-text-button {
@@ -152,8 +150,7 @@ footer {
     color: black;
 }
 
-/* Home page*/
-/* Home / main background image*/
+/* Home Page / main background image*/
 
 #home-image {
     height: 750px; 
@@ -161,35 +158,30 @@ footer {
 
     position: relative;
     background: url(../images/home-image.png);
-    background-position: center 30%;
-    
+    background-position: center 30%; 
 }
 
-
 #home-image ul {
-
     list-style-type: none;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
-    /* background-color: #333; */
     position: absolute;
     right: 30px;
 
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 #home-image li {
     display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 #home-image li a {
     color: black;
+    display: inline-block;
     text-align: center;
-    padding: 10px, 15px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -197,6 +189,8 @@ footer {
     background-color: #111;
     color: white;
 }
+
+/* Text box over main image */
 
 #cover-text-image {
     font-size: 170%;
