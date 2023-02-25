@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     border: none;
-}  
- 
+}
+
 body {
     font-family: Lato, sans-serif;
     font-size: 300;
@@ -151,12 +151,12 @@ footer {
 /* Home Page / main background image*/
 
 #home-image {
-    height: 750px; 
+    height: 750px;
     width: 100%;
 
     position: relative;
     background: url(../images/home-image.png);
-    background-position: center 30%; 
+    background-position: center 30%;
 }
 
 #home-image ul {
@@ -217,14 +217,13 @@ footer {
 /* Home page - Second session - Float*/
 
 #about-steps {
-   height: 700px;
+    height: 700px;
 }
 
 #about-left {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: aqua;
     text-align: center;
 }
 
@@ -232,20 +231,31 @@ footer {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
 }
 
 #image-center {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: yellow;
+
 }
 
-.about-left-heading {
+.about-steps-heading {
     width: 60%;
     margin: 0 auto;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
 
+#container-image {
+    width: 300px;
+    height: 370px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#strategy-image {
+    background-image: url('../images/strategy-image.png');
+    height: 100%;
 }
