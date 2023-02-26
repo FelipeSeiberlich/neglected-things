@@ -159,6 +159,8 @@ footer {
     background-position: center 30%;
 }
 
+/* Home Page - Navigation bar */
+
 #home-image ul {
     list-style-type: none;
     overflow: hidden;
@@ -278,3 +280,41 @@ footer {
 }
 
 /* Home page - Second section - Flex box  */
+
+
+/* Home page - Third section - MENU */
+
+#menu {
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 200%;
+}
+
+#black-white {
+    padding-top: 15px;
+    height: 100%;
+    display: block;
+    border: 1px solid black;
+    overflow: hidden;
+    clear: both;
+}
+
+#black-white div {
+    width: 25%;
+    display: inline-block;
+}
+
+#black-white .black-box {
+    background-color: black;    
+}
+
+#black-white .white-box {
+    background-color: white;    
+}
