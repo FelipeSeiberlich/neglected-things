@@ -247,9 +247,19 @@ footer {
 
 }
 
-.about-steps-heading {
-    width: 60%;
+.about-heading {
+    width: 80%;
     margin: 0 auto;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.steps-heading {
+    width: 80%;
+    margin: 0 auto;
+    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
