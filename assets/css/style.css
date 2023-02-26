@@ -304,11 +304,14 @@ footer {
     border: 1px solid black;
     overflow: hidden;
     clear: both;
+    padding: 20px;
 }
 
 #black-white div {
-    width: 25%;
+    width: 24%;
+    height: 230px;
     display: inline-block;
+    
 }
 
 #black-white .black-box {
