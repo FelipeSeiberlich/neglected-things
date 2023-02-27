@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-}
+} 
 
 body {
     font-family: Lato, sans-serif;
@@ -275,7 +275,7 @@ footer {
 }
 
 #strategy-image {
-    background-image: url('../images/chess-board.png');
+    background-image: url('../images/check-mate1.png');
     height: 100%;
 }
 
@@ -298,19 +298,21 @@ footer {
 }
 
 #black-white {
-    padding-top: 15px;
     height: 100%;
     display: block;
     border: 1px solid black;
     overflow: hidden;
     clear: both;
     padding: 20px;
+    
+    
 }
 
 #black-white div {
-    width: 24%;
+    width: 24.7%;
     height: 230px;
     display: inline-block;
+    border: 1px solid black;
     
 }
 
