@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
 } 
-
+ 
 body {
     font-family: Lato, sans-serif;
     font-size: 300;
@@ -304,8 +304,6 @@ footer {
     overflow: hidden;
     clear: both;
     padding: 20px;
-    
-    
 }
 
 #black-white div {
@@ -322,4 +320,9 @@ footer {
 
 #black-white .white-box {
     background-color: white;    
+}
+
+.banner {
+    margin: 0 auto;
+    border: none;   
 }
