@@ -333,18 +333,38 @@ footer {
 
 #sign-in-up {
     height: 500px;
+    display: block;
+   
+}
+
+#sign-in-up h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 200%;
 }
 
 #in {
-    padding-top: 250px;
+    padding-top: 200px;
     width: 50%;
     float: left;
-    text-align: center;
+    text-align: center; 
 }
 
 #up {
-    padding-top: 250px;
+    padding-top: 200px;
     width: 50%;
     float: right;
     text-align: center;
 }
+/*
+#in a:hover {
+    background-color: #111;
+    color: white;   
+}
+
+#up a:hover {
+    background-color: #111;
+    color: white;      
+}
+*/
