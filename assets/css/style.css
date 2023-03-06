@@ -328,3 +328,23 @@ footer {
     border: none; 
     overflow: hidden;  
 }
+
+/* Home page - Forth session */
+
+#sign-in-up {
+    height: 500px;
+}
+
+#in {
+    padding-top: 250px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#up {
+    padding-top: 250px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
