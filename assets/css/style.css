@@ -90,7 +90,7 @@ h2 {
 
     background-color: rgba(134, 169, 180, .7);
 
-    top: 7em;
+    top: 8em;
     left: 3em;
 
     position: absolute;
@@ -384,15 +384,15 @@ footer {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     padding: 10px;
     margin: 0;
 
     background-color: rgba(134, 169, 180, .7);
 
-    bottom: 250px;
-    left: 120px;
+    top: 8em;
+    left: 3em;
 
     position: absolute;
 }
