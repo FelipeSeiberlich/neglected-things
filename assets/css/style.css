@@ -316,7 +316,7 @@ footer {
 #black-white {
     height: 100%;
     display: block;
-    border: 1px solid black;
+    border: none
     overflow: hidden;
     clear: both;
     padding: 20px;
@@ -326,12 +326,13 @@ footer {
     width: 24.7%;
     height: 230px;
     display: inline-block;
-    border: 1px solid black;
+    
     
 }
 
 #black-white .black-box {
-    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.1);  
+      
 }
 
 #black-white .white-box {
@@ -349,7 +350,7 @@ footer {
 
 #sign-in-up {
     height: 500px;
-    display: block;
+    display: block;    
    
 }
 
@@ -398,7 +399,7 @@ footer {
     letter-spacing: 4px;
 
     width: 400px;
-    height: 500px;
+    height: 450px;
     padding: 10px;
     margin: 0;
 
