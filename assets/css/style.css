@@ -101,13 +101,26 @@ h2 {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    background-color: white;
-    color: black;
+    background-color: black;
     border: none;
     margin: 15px 2px;
-    padding: 5px 30px;
+    padding: 10px 0px;
     cursor: pointer;
+    
 }
+
+#cover-text-button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    
+}
+
+#cover-text-button a:hover {
+    background-color: white;
+    color: black;
+}    
 
 #skip-button {
     letter-spacing: 4px;
@@ -395,4 +408,33 @@ footer {
     left: 3em;
 
     position: absolute;
+}
+
+.signup-form {
+    margin: 0 5% 0 20px;
+    
+    
+}
+
+#sign-up-page #cover-text-image .join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: black;
+    color: #fafafa;
+    display: block;
+}
+
+#sign-up-page #cover-text-image .join-button:hover {
+    background-color: #fafafa;
+    color: black;
+}
+
+#sign-up-page #cover-text-image input {
+    padding: 4px;
+    
+    
+    
 }
