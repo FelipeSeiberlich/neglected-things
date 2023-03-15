@@ -327,10 +327,19 @@ footer {
     height: 230px;
     display: inline-block;
     overflow: hidden;
+    position: relative;
 }
 
 #black-white .black-box {
     background-color: rgba(0, 0, 0, .9)     
+}
+
+#black-white .black-box h2 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    padding: 30px;
 }
 
 #black-white .white-box {
