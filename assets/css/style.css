@@ -517,3 +517,40 @@ footer {
     background-repeat: no-repeat;
 }
 }
+
+/* For medium screens sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #about-steps {
+        width: 60%;
+        height: 900px;
+        margin: 0 auto;
+    }
+    
+    #about-steps h2 {
+        padding-top: 30px;
+        margin: 0;
+    }
+
+    #about-left {
+        width: 80%;   
+    }
+
+    #steps-right {
+        width: 80%;        
+    }
+
+    #black-white {
+        padding-left: 100px;
+    }
+
+    #black-white > div {
+        width: 45%;
+        height: 180px;
+        display: inline-block;
+        overflow: hidden;
+        clear: both;
+        margin: 0 auto;
+        
+    }
+}
