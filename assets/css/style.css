@@ -473,3 +473,47 @@ footer {
 #sign-up-page #cover-text-image input {
     padding: 4px;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #about-steps {
+    width: 80%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#about-steps h2 {
+    padding-top: 30px;
+    margin: 0;
+}
+
+#about-left {
+    width: 45%;
+    float: left;
+    padding: 5px;
+    
+}
+#steps-right {
+    width: 45%;
+    float: right;
+    padding: 5px;
+    
+}
+
+#image-center {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+    height: 300px;
+}
+
+#strategy-image {
+    background-image: url('../images/check-mate1.1.png');
+    height: 100%;
+    background-repeat: no-repeat;
+}
+}
