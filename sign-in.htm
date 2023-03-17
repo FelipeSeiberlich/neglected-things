@@ -18,18 +18,29 @@
     <header>
 
         <a href="home.html" title="Home"><img id="logo-image" src="assets/images/Negthinlogo.png" alt="Logo image"></a>
-        <h1 id="logo-text">Neglected Things <button id="header-button"><a href="sign-in.htm"> Sign In</a></button></h1>
+        <h1 id="logo-text">Neglected Things <button id="header-button"><a href="sign-up.html"> Sign up </a></button></h1>
 
-    </header>  
-    <section>
-        <div id="checkmate-video">
-            <video autoplay muted src="assets/video/checkmate.mp4" type="video/mp4"></video>
+    </header> 
+    <section id="sign-up-page">
+        <div id="checkmate-image">
+            <img src="assets/images/checkmate-image.png" alt="checkmate-image">
         </div>
-        <div id="cover-text-video">
-            <h1>CHECK your<br>personal goals!</h1>
-            <button id="cover-text-button"><a href="sign-up.html"> SIGN UP</a></button>
+        <div id="cover-text-image">
+            <h1>Sign in</h1>
+            <hr>
+            <br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required> <br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <input class="join-button" type="submit" value="Log in">
+
+
+            </form>
+            
         </div>
-        <a id="skip-button" href="home.html" title="Home"><h2> SKIP <i class="fa-solid fa-arrow-right"></i></h2></a>
     </section>
 
     <footer>
