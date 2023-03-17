@@ -413,18 +413,6 @@ footer {
     color: blue;
 }
 
-/*
-#in a:hover {
-    background-color: #111;
-    color: white;   
-}
-
-#up a:hover {
-    background-color: #111;
-    color: white;      
-}
-*/
-
 /* Sign-up */
 
 #sign-up-page {
@@ -440,7 +428,7 @@ footer {
     width: 400px;
     height: 450px;
     padding: 10px;
-    margin: 0;
+    margin-bottom: 10px;
 
     background-color: rgba(134, 169, 180, .7);
 
@@ -450,14 +438,26 @@ footer {
     position: absolute;
 }
 
+#sign-up-page #cover-text-image #spacing {
+    letter-spacing: 2.75px;
+}
+
 .signup-form {
     margin: 0 5% 0 20px;
+    
+    align-items: center;
+}
+
+.signup-form label {
+    display: inline-block;
+    padding: 2px; 0 0 5px;
+    text-align: right;  
 }
 
 #sign-up-page #cover-text-image .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 10px 30px;
+    padding: 10px 35px;
     text-align: center;
     font-size: 100%;
     background-color: black;
@@ -471,7 +471,8 @@ footer {
 }
 
 #sign-up-page #cover-text-image input {
-    padding: 4px;
+    padding: 7px 4px 0 4px;
+    text-align: justify;
 }
 
 /* Media queries */
