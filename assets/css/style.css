@@ -432,7 +432,7 @@ footer {
 
 #sign-up-page {
     width: 100%;
-    height: 700px;
+    height: 800px;
     overflow: hidden;
 }
 #sign-up-page #cover-text-image {
@@ -442,7 +442,7 @@ footer {
     letter-spacing: 4px;
 
     width: 400px;
-    height: 420px;
+    height: 520px;
     padding: 10px;
     margin-bottom: 10px;
 
@@ -495,7 +495,7 @@ footer {
 
 #sign-in-page {
     width: 100%;
-    height: 700px;
+    height: 800px;
     overflow: hidden;
 }
 #sign-in-page #cover-text-image {
