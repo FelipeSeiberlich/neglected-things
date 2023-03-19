@@ -248,7 +248,7 @@ footer {
 
     padding: 10px;
 
-    background-color: rgba(134, 169, 180, .7);
+    background-color: rgba(134, 169, 180, .75);
 
     top: 7em;
     left: 5em;
@@ -363,7 +363,7 @@ footer {
 #black-white {
     height: 100%;
     display: block;
-    border: none
+    border: none;
     overflow: hidden;
     clear: both;
     padding: 20px;
@@ -495,6 +495,7 @@ footer {
 #sign-up-page #cover-text-image {
     font-size: 170%;
     font-family: Lato, sans-serif;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -523,16 +524,16 @@ footer {
 
 .signup-form label {
     display: inline-block;
-    padding: 2px; 0 0 5px;
+    padding: 2px 0 0 5px;
     text-align: right;  
 }
 
 #sign-up-page #cover-text-image .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 10px 35px;
+    padding: 10px 40px;
     text-align: center;
-    font-size: 100%;
+    font-size: 16px;
     background-color: black;
     color: #fafafa;
     display: block;
@@ -560,9 +561,9 @@ footer {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
-    width: 400px;
-    height: 270px;
+    color: black;
+    width: 380px;
+    height: 300px;
     padding: 30px 25px;
     
 
@@ -581,7 +582,7 @@ footer {
 
 .signin-form label {
     display: inline-block;
-    padding: 2px; 0 0 5px;
+    padding: 2px 0 0 5px;
     text-align: right;  
 }
 
@@ -590,7 +591,8 @@ footer {
     border-radius: 2px;
     padding: 10px 35px;
     text-align: center;
-    font-size: 100%;
+    text-transform: uppercase;
+    font-size: 16px;
     background-color: black;
     color: #fafafa;
     display: block;
