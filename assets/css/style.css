@@ -431,25 +431,61 @@ footer {
 
 #sign-in-up #in a {
     text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
+    font-size: 1.5rem;
+    color: #3a3a3a;
+    position: relative;
 }
 
 #sign-in-up #in a:hover {
-    color: blue;
+    color: black;
+}
+
+#sign-in-up #in a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: -.35em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+#sign-in-up #in a:hover::before {
+    transform: scale(1, 1);
 }
 
 #sign-in-up #up a {
     text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
+    font-size: 1.5rem;
+    color: #3a3a3a;
+    position: relative;
 }
 
 #sign-in-up #up a:hover {
-    color: blue;
+    color: black;
 }
 
-/* Sign-up */
+#sign-in-up #up a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: black;
+    position: absolute;
+    bottom: -.35em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+#sign-in-up #up a:hover::before {
+    transform: scale(1, 1);
+}
+
+/* Sign-up page*/
 
 #sign-up-page {
     width: 100%;
@@ -512,7 +548,7 @@ footer {
     text-align: justify;
 }
 
-/* Sign-in */
+/* Sign-in page*/
 
 #sign-in-page {
     width: 100%;
