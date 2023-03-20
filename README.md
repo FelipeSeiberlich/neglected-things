@@ -16,21 +16,23 @@ Deployed site link: [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglec
 
 ## UX
 
-Neglected Things’ design has its inspiration in the game of chess. Following the variety of movements of its pieces 
-around the board, I designed this website to be easily navigated back and forth in all page’s levels and from the top 
-to the bottom.
-The landing page has a chess theme video of a man moving a piece. This video was selected to demonstrate that an action 
-or a move is necessary to achieve personal goals or to incorporate these neglected things into their daily routine.
-The box displayed on top of the video has one of the extra colours selected but the text and button calling for action 
-have the chess reference. This reference can also be seeing in the Logo, Navigation Bar when mouse hovers on it and in 
-the Menu that displays like a chess board. (Only for desktops and laptops and tablets) 
+Neglected Things’ design is inspired by the game of chess. Following the variety of movement of the pieces around 
+the board, I designed this website to be easily navigable across the page’s levels and from top to bottom.
+The landing page has a chess theme video of a man moving a piece. This video was selected to demonstrate that an 
+action or a move is necessary to achieve personal goals or to incorporate these neglected things into their daily 
+routine.
+The box displayed on top of the video has one of the extra colours selected but the text and button calling for 
+action have the chess reference. This reference can also be seeing in the Logo, Navigation Bar when mouse hovers 
+on it and in the Menu that displays like a chess board. (Only for desktops, laptops and tablets) 
+
 
 ### Colour Scheme
 
-In the early stages of the project, I visioned a monochromatic site, playing with black and white backgrounds and text.
-My inspiration for Neglected Things was based in the visuals of the chess board game, pieces movements and its tactics 
-and strategies. Once the website is not about the chess game itself, I decided to add extra colours to the website’s 
-palette, so users could understand the real concept of the site seeing the chess game as coadjutant.
+In the early stages of the project, I envisioned a monochromatic site, playing with black and white backgrounds 
+and text. My inspiration for Neglected Things was based on the visuals of the chess board game, piece movements 
+and its tactics and strategies. The website is not about chess itself, so I decided to add extra colours to the 
+website’s palette, so users could distinguish the actual concept of the site while experiencing the chess game 
+as a complementary backdrop.
 
 - `#000000` used for primary text.
 - `#ffffff` used for primary highlights.
@@ -87,7 +89,7 @@ adopted by the “Neglected Things” website, referring to the chess board with
 **The Footer**
 
 The footer contains four icons imported from [Font Awesome](https://fontawesome.com), they are linked to the Neglected Things'
-social medias.
+social media platforms.
 
 [Facebook](https://www.facebook.com/profile.php?id=100089159984840)
 [Isntagram](https://www.instagram.com/neglectedthings/)
