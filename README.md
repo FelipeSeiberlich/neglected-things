@@ -63,7 +63,7 @@ Example:
 
 ## Features
 
-The header
+**The header**
 
 The header shows the logo followed by the website's name, NEGLECTED THINGS, presented in black capitals, one of the two 
 main colours of the website's palette.
@@ -71,7 +71,9 @@ The “Sign In” button is displayed at the same level as the logo to highlight
 and is in dark grey. The dark grey colour contrasts nicely with the white background; it is easy-on-the-eye when reading and 
 is presented in lower-case text.  
 
-The Index Page
+![Neglected Things' Header](documentation/header.png)
+
+**The Index Page**
 
 The Index Page has a simple design comprising a box calling for action – “Sign Up” (to the website) as well as a “Skip” 
 button function which allows users to move directly to the home page.
@@ -80,7 +82,21 @@ members-only sections.
 The “Sign Up” button switches from black to white when the mouse hovers on the button, following the same design criteria 
 adopted by the “Neglected Things” website, referring to the chess board with black and white backgrounds.
 
-The navigation bar
+![Neglected Things' Landing page](documentation/landing.png)
+
+**The Footer**
+
+The footer contains four icons imported from [Font Awesome](https://fontawesome.com), they are linked to the Neglected Things'
+social medias.
+
+[Facebook](https://www.facebook.com/profile.php?id=100089159984840)
+[Isntagram](https://www.instagram.com/neglectedthings/)
+[YouTube](https://www.youtube.com/channel/UCKFM9pFvSz6eN4ieF5fwVwA)
+[Twitter](https://twitter.com/Phil_seiber)
+
+![Neglected Things' Footer](documentation/footer.png)
+
+**The Navigation Bar**
 
 The navigation bar is featured on the home page on the top-right of the main image below the header.
 Composed of six options, the navigation bar contents are displayed in dark grey. They were intentionally not capitalized 
@@ -90,9 +106,9 @@ of a chess board with predominant black and white tiles.
 All sections in the navigation bar are internal links leading the user to a specific area on the home page.
 "My List" and "Inspire Me" contents are exclusive to subscribed users and, if clicked, lead automatically to the “Sign In/Sign Up” section. 
 
+![Neglected Things' Navigation Bar](documentation/nav-bar.png)
 
-
-The “About” Section
+**The “About” Section**
 
 The “About” section on the Home page provides the user with brief details about “Neglected Things” and how the website is structured 
 to help people with different ‘neglected’ objectives achieve personal goals in fields such as personal care, reading habits, eating habits 
@@ -102,14 +118,18 @@ users who prefer to learn more about the website before proceeding to a particul
 Utilising the visual thematic of the chess board, the section is highlighted with a chess piece icon, and it is separated from the 
 adjacent “Steps” section by a related chess piece image.  
 
-The “Steps” section
+![Neglected Things' Nav-About](documentation/nav-about.png)
+
+**The “Steps” section**
 The “Steps” section is intentionally displayed side-by-side with the “About” section to provide a natural segue from the information 
 text to the starting text with the minimum information necessary.
 It has a parallel structure to the neighbouring “About” section but has a different, distinguishing chess piece icon, the pawn, which 
 is the staring piece in a game of chess. 
 A link at the end of the section leads users to the steps page for more information about the methodology followed by Neglected Things.
 
-The “Menu” section
+![Neglected Things' Nav-Steps](documentation/nav-steps.png)
+
+**The “Menu” section**
 The menu section is composed of 6 potentially neglected fields of our lives: Physical activities, reading habits, eating habits, feelings, 
 personal care, and how to learn.
 The design adopted for the Menu again references the chess board dynamic, placing two contrasted boxes side by side. One box with light 
@@ -119,7 +139,9 @@ The light turquoise background colour was intentionally selected for the first t
 the design structure.
 For this project only the first field - Physical activity, is linked to a page as an example.
 
-The “My List” and “Inspire Me” sections.
+![Neglected Things' Nav-Menu](documentation/nav-menu.png)
+
+**The “My List” and “Inspire Me” sections**
 
 These options are both linked to the “Sign In/Sign Up” section at the bottom of the home page. These two options are not populated for this 
 project but are connected to the aforementioned section showing that a sign-in is required to access.
@@ -128,28 +150,40 @@ the number of weeks covered.
 The “Inspire Me” option will be developed to display motivational videos of users who achieved their goals by using the platform, sharing 
 their testimonials and reviews. 
 
-The “Sign In/Sign Up” section
+![Neglected Things' Nav-My List](documentation/nav-my-list.png)
+![Neglected Things' Nav-Inspire Me](documentation/nav-inspire-me.png)
+
+
+**The “Sign In/Sign Up” section**
 Placed in the last part of the body of the home page the “Sign In/Sign Up” section calls users one more time to sign up or sign in to enjoy 
 exclusive content and personalized functionality - like a personal list of subjects chosen across the website.
 
-The “Sign Up” page
+![Neglected Things' Sign In section](documentation/signin-section.png)
+![Neglected Things' Sign In section](documentation/signup-section.png)
+
+**The “Sign Up” page**
 The “Sign Up” page can be accessed from all main pages of the website. The subscription of new members is one of the main targets of the 
 site owner, along with video views.
 
+![Neglected Things' Sign Up page](documentation/signup-page.png)
 
-The “Sign In” page
+**The “Sign In” page**
 The Sign-in page is temporarily displayed in the form of an external page due to the limited time available to submit the project. In the 
 future, activating the “sign in” function will result in the appearance of an additional drop-bar at the top of the home page under the “sign in” 
 link, with fields for login credentials thus avoiding the need for an external page.
 
+![Neglected Things' Sign In page](documentation/signin-page.png)
 
 ### Existing Features
 
-- **Feature #1**
+- **Social Media Integration**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Even being considered an old feature, the social media integration is present at Neglected things site with their respective icons linked 
+    in the footer. This integration has a vital role for us once social media will be used as diffusor of knowledge to the users and the 
+    opportunity of sharing their experiences in the platform.
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/footer.png)
+![Neglected Things Facebook page](documentation/facebook.png)
 
 - **Feature #2**
 
