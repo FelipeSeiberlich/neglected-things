@@ -195,7 +195,7 @@ link, with fields for login credentials thus avoiding the need for an external p
 
 - **Animation using transition**
 
-    - A CSS animation feature was added to all Sign In and Sign Up elements in the website, making a smooth change in the visuals properties.
+    - A CSS animation feature was added to all Sign In and Sign Up elements in the website, making a smooth change in the visual properties.
     Without the transition feature, transform would abruptly manipulate from one state to another. This smooth transition of the animation
     provides a pleasant experience to the users.
 
@@ -203,14 +203,14 @@ link, with fields for login credentials thus avoiding the need for an external p
 
 - **Images scales up**
 
-    - The images displayed in the Menu scales up when the mouse hovers on top of them. This features provides a nice experience to the users
+    - The images displayed in the Menu scales up when the mouse hovers above them. This feature provides a pleasant experience to the users
     and gives the website a modern appearence.
 
 ![screenshot](documentation/scales-up.png)
 
 ### Future Features
 
-In the future I would like to implement flex boxes in the second section of the Home page and a dropdown Navigation bar with subscribed members' contents.
+In the future I would like to implement flex boxes in the second section of the Home page and a dropdown Navigation bar with content for subscribed members.
 
 - Scroll snap #1
     - I would like to add a scroll snap for the Menu with the mobile resolution.
@@ -289,7 +289,7 @@ Use this space to discuss any differences between the local version you've devel
 
 I would like to credit [Canva](https://www.canva.com/)for all imaginary and video used on [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglected-things)
 website. I also would like to credit [W3Schools](https://www.w3schools.com/) and [Kevin Powell YouTube channel](https://www.youtube.com/) for helping me with the development of Neglected Things' Nav bar and animations using the transition element.
-In relation to the README.md file, I would like to credit [Tim Nelson](https://github.com/TravelTimN) for developing this amazing tool [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) used to help generate the Markdown files. This generator provides guidance to the students to build a well structured
+In relation to the README.md file, I would like to credit [Tim Nelson](https://github.com/TravelTimN) for developing this amazing tool [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) used to help generate the Markdown files. This generator provides guidance to the students in providing well structured
 documentation.
 
 ### Content
@@ -310,7 +310,7 @@ Find bellow a list of attribution links to all images and videos files borrowed 
 
 ### Acknowledgements
 
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support.
 - I would like to thank my best friend (Nailla Santos), for believing in me, and allowing me to make this transition into software development.
