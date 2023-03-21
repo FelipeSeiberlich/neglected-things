@@ -13,6 +13,12 @@ Consider adding a mockup image using the "Am I Responsive" website.
 
 Deployed site link: [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglected-things)
 
+## CREATOR
+
+Felipe Seiberlich
+
+Code Institute student, 2023.
+
 
 ## UX
 
@@ -52,8 +58,8 @@ I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0
 
 ### Typography
 
-Neglected Things website uses Oswald font for their headings and Lato font for secondary text. Sans-serif is used as backup font. 
-Social media icons and chess pieces icons were imported from Font Awesome.
+The font-family selected for Neglected Things body is Lato, sans-serif and for the Headings Oswad, sans-serif a typographic 
+style that is appealing and clear. 
 
 Example:
 
@@ -180,85 +186,50 @@ link, with fields for login credentials thus avoiding the need for an external p
 
 - **Social Media Integration**
 
-    - Even being considered an old feature, the social media integration is present at Neglected things site with their respective icons linked 
-    in the footer. This integration has a vital role for us once social media will be used as diffusor of knowledge to the users and the 
-    opportunity of sharing their experiences in the platform.
+    - While being considered an older feature, a social media integration footer is present on the main pages of the Neglected Things site 
+    using the respective linked icons. This integration has a vital role as use of social media will be encouraged to share knowledge among 
+    the users with the opportunity of sharing experiences.
 
 ![screenshot](documentation/footer.png)
 ![Neglected Things Facebook page](documentation/facebook.png)
 
-- **Feature #2**
+- **Animation using transition**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - A CSS animation feature was added to all Sign In and Sign Up elements in the website, making a smooth change in the visuals properties.
+    Without the transition feature, transform would abruptly manipulate from one state to another. This smooth transition of the animation
+    provides a pleasant experience to the users.
 
-![screenshot](documentation/feature02.png)
+![CSS feature](documentation/transition.png)
 
-- **Feature #3**
+- **Images scales up**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The images displayed in the Menu scales up when the mouse hovers on top of them. This features provides a nice experience to the users
+    and gives the website a modern appearence.
 
-![screenshot](documentation/feature03.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![screenshot](documentation/scales-up.png)
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+In the future I would like to implement flex boxes in the second section of the Home page and a dropdown Navigation bar with subscribed members' contents.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Cool new feature #1
-    - Any additional notes about this feature.
-- Cool new feature #2
-    - Any additional notes about this feature.
-- Cool new feature #3
-    - Any additional notes about this feature.
+- Scroll snap #1
+    - I would like to add a scroll snap for the Menu with the mobile resolution.
+- Flex boxes #2
+    - I would like to replace the floating elements in the second section of the Home page for flex boxes.
+- Accent-color #3
+    - I would like to use this new feature with the checkboxes of the contents covered by the users.
 
 ## Tools & Technologies Used
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I have listed bellow all tools and tecnologies used to develop Neglected Things Website.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and/or [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) used to help generate the Markdown files.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
 
 ## Testing
 
