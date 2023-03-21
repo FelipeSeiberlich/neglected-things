@@ -40,7 +40,7 @@ h2 {
 
 #header-button {
     letter-spacing: 4px;
-    font-size: 16px;
+    font-size: 1.3vw;
     text-align: center;
     text-decoration: none;
     float: right;
@@ -116,7 +116,7 @@ h2 {
     padding: 10px;
     margin: 0;
 
-    background-color: rgba(134, 169, 180, .7);
+    background-color: rgba(134, 169, 180, 0.702);
 
     top: 8em;
     left: 3em;
@@ -660,7 +660,7 @@ footer {
 
 @media screen and (max-width: 950px) {
     #about-steps {
-        width: 60%;
+        width: 100%;
         height: 900px;
         margin: 0 auto;
     }
@@ -689,5 +689,115 @@ footer {
         overflow: hidden;
         clear: both;
         margin: 0 auto;
+    }
+}
+
+/* For small screens sizes from 730px wide and down */
+
+/* Index page */
+
+@media screen and (max-width: 730px) {
+    .social-networks i { 
+        font-size: 130%;
+        margin: 1px;
+        padding: 10px 35px;
+        color: black;
+    }
+
+    #cover-text-video {
+        font-size: 170%;
+        font-family: Lato, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        width: 300px;
+        height: 250px;
+        padding: 10px;
+        margin: 0;
+    
+        background-color: rgba(134, 169, 180, 0.702);
+    
+        top: 8em;
+        left: 1em;
+    
+        position: absolute;
+    }
+
+    #header-button {
+        letter-spacing: 4px;
+        font-size: 3vw;
+        text-align: center;
+        text-decoration: none;
+        float: right;
+        background-color: white;
+        color: black;
+        border: none;
+        margin: 0px 2px;
+        padding: 0px 20px;
+        cursor: pointer;
+    }
+
+    #logo-text {
+        font-size: 3vw;
+    }
+
+    /* Home page - Menu */
+
+    #black-white {
+        padding: 50px;   
+    }
+
+    #black-white .black-box {
+        height: 120px;        
+    }
+
+    #black-white>div {
+        width: 100%;
+        height: 160px;
+        display: inline-block;
+        overflow: hidden;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #black-white .black-box h2 {
+        text-align: center;
+        color: white;
+        top: 10px;
+        left: 10px;
+        padding: 7px 35px;
+        position: absolute;
+    }
+
+    /* Home page - About/Steps */
+
+    #about-steps {
+        width: 100%;
+        height: 900px;
+        margin: 0 auto;
+    }
+
+    #about-left {
+        width: 80%;
+    }
+
+    /* Home page - Main Image/Cover box/Nav bar */
+
+    #cover-text-image {
+        font-size: 170%;
+        font-family: Lato, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        width: 350px;
+        height: 350px;
+        padding: 10px;
+    
+        background-color: rgba(134, 169, 180, .75);
+    
+        top: 9em;
+        left: 1em;
+    
+        position: absolute;
     }
 }
