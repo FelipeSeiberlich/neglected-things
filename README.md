@@ -294,6 +294,8 @@ documentation.
 
 ### Content
 
+| Link | Location | Notes |
+| --- | --- | --- |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Kevin Powell YouTube channel](https://www.youtube.com/watch?v=8QKOaTYvYUA) | Responsive Nav Bar | "Create a responsive navigation nav with no JS!" |
 | [W3Schools](https://www.w3schools.com/css/css_navbar.asp) | Navigation bar | responsive HTML/CSS navbar |
@@ -304,6 +306,8 @@ documentation.
 
 Find bellow a list of attribution links to all images and videos files borrowed from online.
 
+| Link | Location | Type | Notes |
+| --- | --- | --- | --- |
 | [Favico.ico](https://www.favicon.cc/) | entire site | image | favicon on all pages |
 | [Canva](https://www.canva.com/) | entire site | image and video | Video in the Index page and imaginary in the home page |
 | [Font Awesome](https://fontawesome.com) | Footer and About/Steps sections | Icon | Icons of chess pieces |
