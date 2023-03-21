@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Lato, sans-serif;
     font-size: 300;
@@ -92,7 +96,7 @@ h2 {
 #checkmate-video {
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 82vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -339,7 +343,7 @@ footer {
 }
 
 #strategy-image {
-    background-image: url('../images/check-mate1.png');
+    background: url('../images/check-mate1.png') no-repeat;
     height: 100%;
 }
 
@@ -349,7 +353,6 @@ footer {
 /* Home - Third section - MENU */
 
 #menu {
-    display: inline-block;
     width: 100%;
 }
 
@@ -357,23 +360,23 @@ footer {
     text-align: center;
     font-size: 200%;
     padding-bottom: 15px;
+    clear: both;
 }
 
 #black-white {
     height: 100%;
-    display: block;
-    padding: 20px;
-    border: none;
+    border: 0;
     overflow: hidden;
     clear: both;
+    margin: 0 auto;
 }
 
-#black-white div {
+#black-white .black-box,
+#black-white .white-box {
     width: 24.7%;
     height: 230px;
     display: inline-block;
     overflow: hidden;
-    position: relative;
 }
 
 #black-white .black-box {
@@ -383,9 +386,8 @@ footer {
 #black-white .black-box h2 {
     text-align: center;
     color: white;
-    top: 35px;
-    padding: 40px;
-    position: absolute;
+    width: 80%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #black-white .white-box {
@@ -397,6 +399,14 @@ footer {
     padding: 0;
     border: none;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+.banner:hover {
+    scale: 1.1;
 }
 
 /* Home page - Forth session */
@@ -488,7 +498,7 @@ footer {
 
 #sign-up-page {
     width: 100%;
-    height: 800px;
+    height: 82vh;
     overflow: hidden;
 }
 
@@ -498,17 +508,13 @@ footer {
     color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 400px;
     height: 520px;
     padding: 10px;
     margin-bottom: 10px;
-
     background-color: rgba(134, 169, 180, .7);
-
     top: 3.75em;
     left: 2.5em;
-
     position: absolute;
 }
 
@@ -554,7 +560,7 @@ footer {
 
 #sign-in-page {
     width: 100%;
-    height: 800px;
+    height: 82vh;
     overflow: hidden;
 }
 
@@ -652,7 +658,7 @@ footer {
     }
 
     #strategy-image {
-        background-image: url('../images/check-mate1.1.png');
+        background: url('../images/check-mate1.png') no-repeat;
         height: 100%;
         background-repeat: no-repeat;
     }
@@ -684,12 +690,9 @@ footer {
 
     /* Menu section */
 
-    #black-white {
-        padding-left: 100px;
-    }
-
-    #black-white>div {
-        width: 45%;
+    #black-white .black-box,
+    #black-white .white-box {
+        width: 49.7%;
         height: 180px;
         display: inline-block;
         overflow: hidden;
@@ -749,15 +752,12 @@ footer {
 
     /* Home page - Menu */
 
-    #black-white {
-        padding: 50px;   
-    }
-
     #black-white .black-box {
         height: 120px;        
     }
 
-    #black-white>div {
+    #black-white .black-box,
+    #black-white .white-box {
         width: 100%;
         height: 160px;
         display: inline-block;
@@ -769,10 +769,6 @@ footer {
     #black-white .black-box h2 {
         text-align: center;
         color: white;
-        top: 10px;
-        left: 10px;
-        padding: 7px 35px;
-        position: absolute;
     }
 
     /* Home page - About/Steps */
@@ -849,4 +845,14 @@ footer {
     
         position: absolute;
     }
+}
+
+.box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
