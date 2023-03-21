@@ -617,6 +617,8 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 
+/* About/Steps section */
+
 @media screen and (max-width: 1200px) {
     #about-steps {
         width: 80%;
@@ -658,6 +660,8 @@ footer {
 
 /* For medium screens sizes from 950px wide and down */
 
+/* About/Steps section */
+
 @media screen and (max-width: 950px) {
     #about-steps {
         width: 100%;
@@ -677,6 +681,8 @@ footer {
     #steps-right {
         width: 80%;
     }
+
+    /* Menu section */
 
     #black-white {
         padding-left: 100px;
@@ -781,22 +787,65 @@ footer {
         width: 80%;
     }
 
-    /* Home page - Main Image/Cover box/Nav bar */
+    /* Home page - Cover box/Nav bar */
 
     #cover-text-image {
-        font-size: 170%;
+        font-size: 150%;
         font-family: Lato, sans-serif;
         text-transform: uppercase;
         letter-spacing: 4px;
     
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 320px;
         padding: 10px;
     
         background-color: rgba(134, 169, 180, .75);
     
-        top: 9em;
+        top: 10em;
         left: 1em;
+    
+        position: absolute;
+    }
+
+    /* Sign In page - Form */
+
+    #sign-in-page #cover-text-image {
+        font-size: 150%;
+        font-family: Lato, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        color: black;
+        background-color: rgba(134, 169, 180, .7);
+    
+        width: 270px;
+        height: 300px;
+        padding: 30px 25px;
+        
+        top: 6em;
+        left: 1em;
+    
+        position: absolute;
+    }
+
+     /* Sign Up page - Form */
+
+     #sign-up-page #cover-text-image {
+        font-size: 150%;
+        font-family: Lato, sans-serif;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+        width: 360px;
+        height: 480px;
+        padding: 10px;
+        margin-bottom: 10px;
+    
+        background-color: rgba(134, 169, 180, .7);
+    
+        top: 6em;
+        left: .75em;
     
         position: absolute;
     }
