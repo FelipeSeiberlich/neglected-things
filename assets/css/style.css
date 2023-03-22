@@ -67,7 +67,7 @@ h2 {
     content: '';
     display: block;
     height: 3px;
-    background: black;
+    background: #86A9B4;
     position: absolute;
     bottom: -.50em;
     left: 0;
@@ -96,7 +96,7 @@ h2 {
 #checkmate-video {
     position: relative;
     width: 100%;
-    height: 82vh;
+    height: 84vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +120,7 @@ h2 {
     padding: 10px;
     margin: 0;
 
-    background-color: rgba(134, 169, 180, 0.702);
+    background-color:  rgba(58, 58, 58, 0.7);
 
     top: 8em;
     left: 3em;
@@ -253,7 +253,7 @@ footer {
     height: 350px;
     padding: 10px;
 
-    background-color: rgba(134, 169, 180, .75);
+    background-color: rgba(58, 58, 58, 0.8);
 
     top: 7em;
     left: 5em;
@@ -365,7 +365,8 @@ footer {
 
 #black-white {
     height: 100%;
-    border: 0;
+    border: none;
+    border-left: 5px solid white;
     overflow: hidden;
     clear: both;
     margin: 0 auto;
@@ -380,7 +381,7 @@ footer {
 }
 
 #black-white .black-box {
-    background-color: rgba(134, 169, 180, .7)
+    background-color: rgba(58, 58, 58, 0.8);
 }
 
 #black-white .black-box h2 {
@@ -453,7 +454,7 @@ footer {
     content: '';
     display: block;
     height: 3px;
-    background: black;
+    background: #86A9B4;
     position: absolute;
     bottom: -.35em;
     left: 0;
@@ -481,7 +482,7 @@ footer {
     content: '';
     display: block;
     height: 3px;
-    background: black;
+    background: #86A9B4;
     position: absolute;
     bottom: -.35em;
     left: 0;
@@ -498,21 +499,21 @@ footer {
 
 #sign-up-page {
     width: 100%;
-    height: 82vh;
+    height: 84vh;
     overflow: hidden;
 }
 
 #sign-up-page #cover-text-image {
     font-size: 170%;
     font-family: Lato, sans-serif;
-    color: black;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 400px;
     height: 520px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: rgba(134, 169, 180, .7);
+    background-color: rgba(58, 58, 58, 0.8);
     top: 3.75em;
     left: 2.5em;
     position: absolute;
@@ -560,7 +561,7 @@ footer {
 
 #sign-in-page {
     width: 100%;
-    height: 82vh;
+    height: 84vh;
     overflow: hidden;
 }
 
@@ -570,8 +571,8 @@ footer {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    color: black;
-    background-color: rgba(134, 169, 180, .7);
+    color: white;
+    background-color: rgba(58, 58, 58, 0.8);
 
     width: 380px;
     height: 300px;
@@ -707,7 +708,7 @@ footer {
 
 @media screen and (max-width: 730px) {
     .social-networks i { 
-        font-size: 130%;
+        font-size: 120%;
         margin: 1px;
         padding: 10px 35px;
         color: black;
@@ -724,10 +725,10 @@ footer {
         padding: 10px;
         margin: 0;
     
-        background-color: rgba(134, 169, 180, 0.702);
+        background-color: rgba(58, 58, 58, 0.8);
     
         top: 8em;
-        left: 1em;
+        left: 0.75em;
     
         position: absolute;
     }
@@ -795,7 +796,7 @@ footer {
         height: 320px;
         padding: 10px;
     
-        background-color: rgba(134, 169, 180, .75);
+        background-color: rgba(58, 58, 58, 0.8);
     
         top: 10em;
         left: 1em;
@@ -811,15 +812,15 @@ footer {
         text-transform: uppercase;
         letter-spacing: 4px;
     
-        color: black;
-        background-color: rgba(134, 169, 180, .7);
+        color: white;
+        background-color: rgba(58, 58, 58, 0.8);
     
-        width: 270px;
+        width: 275px;
         height: 300px;
         padding: 30px 25px;
         
         top: 6em;
-        left: 1em;
+        left: 0.75em;
     
         position: absolute;
     }
@@ -829,19 +830,19 @@ footer {
      #sign-up-page #cover-text-image {
         font-size: 150%;
         font-family: Lato, sans-serif;
-        color: black;
+        color: white;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     
-        width: 360px;
-        height: 480px;
+        width: 330px;
+        height: 470px;
         padding: 10px;
         margin-bottom: 10px;
     
-        background-color: rgba(134, 169, 180, .7);
+        background-color: rgba(58, 58, 58, 0.8);
     
         top: 6em;
-        left: .75em;
+        left: .50em;
     
         position: absolute;
     }
