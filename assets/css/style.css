@@ -40,6 +40,8 @@ h2 {
 
 #logo-text {
     font-size: 2vw;
+    text-decoration: none;
+    color: black;
 }
 
 #header-button {
@@ -120,7 +122,7 @@ h2 {
     padding: 10px;
     margin: 0;
 
-    background-color:  rgba(58, 58, 58, 0.7);
+    background-color:  rgba(0, 0, 255, 0.6);
 
     top: 8em;
     left: 3em;
@@ -253,7 +255,7 @@ footer {
     height: 350px;
     padding: 10px;
 
-    background-color: rgba(58, 58, 58, 0.8);
+    background-color: rgba(0, 0, 255, 0.8);
 
     top: 7em;
     left: 5em;
@@ -381,7 +383,7 @@ footer {
 }
 
 #black-white .black-box {
-    background-color: rgba(58, 58, 58, 0.8);
+    background-color: rgba(0, 0, 255, 0.8);
 }
 
 #black-white .black-box h2 {
@@ -513,7 +515,7 @@ footer {
     height: 520px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: rgba(58, 58, 58, 0.8);
+    background-color: rgba(0, 0, 255, 0.8);
     top: 3.75em;
     left: 2.5em;
     position: absolute;
@@ -572,7 +574,7 @@ footer {
     letter-spacing: 4px;
 
     color: white;
-    background-color: rgba(58, 58, 58, 0.8);
+    background-color: rgba(0, 0, 255, 0.8);
 
     width: 380px;
     height: 300px;
@@ -710,7 +712,7 @@ footer {
     .social-networks i { 
         font-size: 120%;
         margin: 1px;
-        padding: 10px 35px;
+        padding: 10px 30px;
         color: black;
     }
 
@@ -725,7 +727,7 @@ footer {
         padding: 10px;
         margin: 0;
     
-        background-color: rgba(58, 58, 58, 0.8);
+        background-color: rgba(0, 0, 255, 0.6);
     
         top: 8em;
         left: 0.75em;
@@ -796,7 +798,7 @@ footer {
         height: 320px;
         padding: 10px;
     
-        background-color: rgba(58, 58, 58, 0.8);
+        background-color:  rgba(0, 0, 255, 0.8);
     
         top: 10em;
         left: 1em;
@@ -813,7 +815,7 @@ footer {
         letter-spacing: 4px;
     
         color: white;
-        background-color: rgba(58, 58, 58, 0.8);
+        background-color:  rgba(0, 0, 255, 0.6);
     
         width: 275px;
         height: 300px;
@@ -828,18 +830,18 @@ footer {
      /* Sign Up page - Form */
 
      #sign-up-page #cover-text-image {
-        font-size: 150%;
+        font-size: 130%;
         font-family: Lato, sans-serif;
         color: white;
         text-transform: uppercase;
         letter-spacing: 3px;
     
-        width: 330px;
-        height: 470px;
-        padding: 10px;
+        width: 300px;
+        height: 420px;
+        padding: 25px 15px;
         margin-bottom: 10px;
     
-        background-color: rgba(58, 58, 58, 0.8);
+        background-color: rgba(0, 0, 255, 0.6);
     
         top: 6em;
         left: .50em;
