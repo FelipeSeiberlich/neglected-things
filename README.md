@@ -7,9 +7,7 @@ procrastination, or neglected areas of their lives.  The menu of the website dis
 Users of this website will be able to understand the importance of doing things progressively - starting from basic to the more advanced situations,
 setting realistic goals, and respecting a timeframe.  To provide background inspiration these are set around chess-inspired concepts and strategy. 
 
-Consider adding a mockup image using the "Am I Responsive" website.
-
-![screenshot](documentation/responsive.png)
+![Am I responsive?](documentation/responsive.png)
 
 Deployed site link: [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglected-things)
 
@@ -41,9 +39,9 @@ website’s palette, so users could distinguish the actual concept of the site w
 as a complementary backdrop.
 
 - `#000000` used for primary text.
-- `#ffffff` used for primary highlights.
-- `#3a3a3a` used for body and secondary text.
-- `#86a9b4` used for boxes background.
+- `#ffffff` used for primary highlights and banners' text.
+- `#3a3a3a` used for body, secondary text and banners' background colour.
+- `#86a9b4` used for hover effect.
 - `#0000ff` used for text links.
 
 ![screenshot](documentation/negthi-palette.png)
@@ -53,6 +51,7 @@ as a complementary backdrop.
 Example:
 
 ![screenshot](documentation/colour-scheme.png)
+![screenshot](documentation/colour-scheme1.png)
 
 I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 
@@ -65,7 +64,13 @@ Example:
 
 - [Oswald](https://fonts.google.com/specimen/Oswald) was used for the primary headers and titles.
 
+![screenshot](documentation/oswald.png)
+
 - [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+
+![screenshot](documentation/lato.png)
+
+- [Sans-serif](https://www.myfonts.com/pages/sans-serif-fonts) was used as font fallbacks.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
@@ -97,10 +102,10 @@ adopted by the “Neglected Things” website, referring to the chess board with
 The footer contains four icons imported from [Font Awesome](https://fontawesome.com), they are linked to the Neglected Things'
 social media platforms.
 
-[Facebook](https://www.facebook.com/profile.php?id=100089159984840)
-[Isntagram](https://www.instagram.com/neglectedthings/)
-[YouTube](https://www.youtube.com/channel/UCKFM9pFvSz6eN4ieF5fwVwA)
-[Twitter](https://twitter.com/Phil_seiber)
+[Facebook](https://www.facebook.com/profile.php?id=100089159984840) -
+[Isntagram](https://www.instagram.com/neglectedthings/) -
+[YouTube](https://www.youtube.com/channel/UCKFM9pFvSz6eN4ieF5fwVwA) -
+[Twitter](https://twitter.com/Phil_seiber).
 
 ![Neglected Things' Footer](documentation/footer.png)
 
