@@ -178,6 +178,18 @@ h2 {
     color: white;
 }
 
+#skip-button h2:hover {
+    color: #86A9B4;
+}
+
+#skip-button i {
+    color: white;
+}
+
+#skip-button i:hover {
+    color: #86A9B4;
+}
+
 /* Footer - social media icons*/
 
 footer {
@@ -197,6 +209,10 @@ footer {
     margin: 1px;
     padding: 10px 75px;
     color: black;
+}
+
+.social-networks i:hover {
+    color: #86A9B4;
 }
 
 /* Home Page - main background image*/
