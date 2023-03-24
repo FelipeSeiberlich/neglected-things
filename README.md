@@ -50,8 +50,8 @@ as a complementary backdrop.
 
 Example:
 
-![screenshot](documentation/colour-scheme.png)
 ![screenshot](documentation/colour-scheme1.png)
+![screenshot](documentation/colour-scheme2.png)
 
 I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 
@@ -84,7 +84,7 @@ The “Sign In” button is displayed at the same level as the logo to highlight
 and is in dark grey. The dark grey colour contrasts nicely with the white background; it is easy-on-the-eye when reading and 
 is presented in lower-case text.  
 
-![Neglected Things' Header](documentation/header.png)
+![Neglected Things' Header](documentation/header0.png)
 
 **The Index Page**
 
@@ -95,7 +95,7 @@ members-only sections.
 The “Sign Up” button switches from black to white when the mouse hovers on the button, following the same design criteria 
 adopted by the “Neglected Things” website, referring to the chess board with black and white backgrounds.
 
-![Neglected Things' Landing page](documentation/landing.png)
+![Neglected Things' Landing page](documentation/landing1.png)
 
 **The Footer**
 
@@ -107,7 +107,7 @@ social media platforms.
 [YouTube](https://www.youtube.com/channel/UCKFM9pFvSz6eN4ieF5fwVwA) -
 [Twitter](https://twitter.com/Phil_seiber).
 
-![Neglected Things' Footer](documentation/footer.png)
+![Neglected Things' Footer](documentation/footer1.png)
 
 **The Navigation Bar**
 
@@ -130,6 +130,8 @@ There are two paragraphs providing a summary of the main information with a “c
 users who prefer to learn more about the website before proceeding to a particular feature.  
 Utilising the visual thematic of the chess board, the section is highlighted with a chess piece icon, and it is separated from the 
 adjacent “Steps” section by a related chess piece image.  
+Once implemented, a link at the end of this section will lead users to the About page for more information about Neglected Things' history.
+At this stage of the project the text in blue is to signalize the intention and illustrate how would look like.
 
 ![Neglected Things' Nav-About](documentation/nav-about1.png)
 
@@ -138,7 +140,8 @@ The “Steps” section is intentionally displayed side-by-side with the “Abou
 text to the starting text with the minimum information necessary.
 It has a parallel structure to the neighbouring “About” section but has a different, distinguishing chess piece icon, the pawn, which 
 is the staring piece in a game of chess. 
-A link at the end of the section leads users to the steps page for more information about the methodology followed by Neglected Things.
+Once implemented, a link at the end of this section will lead users to the Steps page for more information about the methodology followed by Neglected Things.
+At this stage of the project the text in blue is to signalize the intention and illustrate how would look like.
 
 ![Neglected Things' Nav-Steps](documentation/nav-steps1.png)
 
@@ -289,11 +292,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+No significant changes were detected between the local developed version and the live deployed site on GitHub Pages.
 
 ## Credits
 
