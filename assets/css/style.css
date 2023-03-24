@@ -103,7 +103,7 @@ h2 {
 }
 
 #cover-text-video,
-#cover-text-video h1 {
+#cover-text-video h2 {
     color: white;
     text-align: center;
 }
@@ -267,7 +267,7 @@ footer {
     position: absolute;
 }
 
-#cover-text-image h1 {
+#cover-text-image h2 {
     color: white;
     text-align: center;
 }
