@@ -187,6 +187,8 @@ h2 {
 
 #skip-button i {
     color: white;
+    background-color: black;
+    font-size: 1.2em;
 }
 
 #skip-button i:hover {
