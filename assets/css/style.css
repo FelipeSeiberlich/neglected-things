@@ -24,18 +24,13 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
-    padding: 0;
-    margin: 0;
-    border: none;
 }
 
 #logo-image {
     float: left;
     height: 50px;
     width: 50px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 15px 0 15px;
 }
 
 #logo-text {
@@ -52,9 +47,9 @@ h2 {
     font-size: 1.3vw;
     text-align: center;
     text-decoration: none;
+
     float: right;
     background-color: white;
-    color: black;
     border: none;
     margin: 0px 2px;
     padding: 0px 32px;
@@ -114,11 +109,7 @@ h2 {
 }
 
 #cover-text-video {
-    font-size: 170%;
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
+    font-size: 170%;  
     width: 300px;
     height: 250px;
     padding: 10px;
@@ -161,7 +152,6 @@ h2 {
 }
 
 #skip-button {
-    letter-spacing: 4px;
     font-size: 110%;
     text-align: center;
     text-decoration: none;
@@ -237,15 +227,12 @@ footer {
     overflow: hidden;
     position: absolute;
     right: 30px;
-
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding: 1px 0;
 }
 
 #home-image li {
     display: inline;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding: 0 1px;
 }
 
 #home-image li a {
@@ -259,7 +246,7 @@ footer {
 }
 
 #home-image li a:hover {
-    background-color: #111;
+    background-color: #000000;
     color: white;
 }
 
@@ -267,9 +254,6 @@ footer {
 
 #cover-text-image {
     font-size: 170%;
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
 
     width: 350px;
     height: 350px;
@@ -291,8 +275,8 @@ footer {
 #cover-text-image p {
     color: white;
     text-align: right;
-    padding-top: 15px;
-    padding-right: 10px;
+
+    padding: 15px 10px 0 0;
 }
 
 /* Home - second session - Float*/
@@ -368,9 +352,6 @@ footer {
     background: url('../images/check-mate1.png') no-repeat;
     height: 100%;
 }
-
-/* Home page - Second section - Flex box  */
-
 
 /* Home - Third section - MENU */
 
@@ -528,16 +509,20 @@ footer {
 #sign-up-page #cover-text-image {
     font-size: 170%;
     font-family: Lato, sans-serif;
-    color: white;
     text-transform: uppercase;
     letter-spacing: 4px;
+
+    color: white;
+    background-color: rgba(58, 58, 58, .6);
+
     width: 400px;
     height: 520px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: rgba(58, 58, 58, .6);
+    
     top: 3.75em;
     left: 2.5em;
+    
     position: absolute;
 }
 
@@ -738,9 +723,6 @@ footer {
 
     #cover-text-video {
         font-size: 170%;
-        font-family: Lato, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
     
         width: 300px;
         height: 250px;
@@ -810,10 +792,7 @@ footer {
 
     #cover-text-image {
         font-size: 150%;
-        font-family: Lato, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-    
+
         width: 300px;
         height: 320px;
         padding: 10px;
@@ -852,9 +831,10 @@ footer {
      #sign-up-page #cover-text-image {
         font-size: 130%;
         font-family: Lato, sans-serif;
-        color: white;
         text-transform: uppercase;
         letter-spacing: 3px;
+
+        color: white;
     
         width: 300px;
         height: 420px;
