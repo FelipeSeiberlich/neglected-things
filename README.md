@@ -119,7 +119,7 @@ of a chess board with predominant black and white tiles.
 All sections in the navigation bar are internal links leading the user to a specific area on the home page.
 "My List" and "Inspire Me" contents are exclusive to subscribed users and, if clicked, lead automatically to the “Sign In/Sign Up” section. 
 
-![Neglected Things' Navigation Bar](documentation/nav-bar.png)
+![Neglected Things' Navigation Bar](documentation/nav-bar1.png)
 
 **The “About” Section**
 
@@ -131,7 +131,7 @@ users who prefer to learn more about the website before proceeding to a particul
 Utilising the visual thematic of the chess board, the section is highlighted with a chess piece icon, and it is separated from the 
 adjacent “Steps” section by a related chess piece image.  
 
-![Neglected Things' Nav-About](documentation/nav-about.png)
+![Neglected Things' Nav-About](documentation/nav-about1.png)
 
 **The “Steps” section**
 The “Steps” section is intentionally displayed side-by-side with the “About” section to provide a natural segue from the information 
@@ -140,7 +140,7 @@ It has a parallel structure to the neighbouring “About” section but has a di
 is the staring piece in a game of chess. 
 A link at the end of the section leads users to the steps page for more information about the methodology followed by Neglected Things.
 
-![Neglected Things' Nav-Steps](documentation/nav-steps.png)
+![Neglected Things' Nav-Steps](documentation/nav-steps1.png)
 
 **The “Menu” section**
 The menu section is composed of 6 potentially neglected fields of our lives: Physical activities, reading habits, eating habits, feelings, 
@@ -152,7 +152,7 @@ The light turquoise background colour was intentionally selected for the first t
 the design structure.
 For this project only the first field - Physical activity, is linked to a page as an example.
 
-![Neglected Things' Nav-Menu](documentation/nav-menu.png)
+![Neglected Things' Nav-Menu](documentation/nav-menu1.png)
 
 **The “My List” and “Inspire Me” sections**
 
@@ -163,29 +163,29 @@ the number of weeks covered.
 The “Inspire Me” option will be developed to display motivational videos of users who achieved their goals by using the platform, sharing 
 their testimonials and reviews. 
 
-![Neglected Things' Nav-My List](documentation/nav-my-list.png)
-![Neglected Things' Nav-Inspire Me](documentation/nav-inspire-me.png)
+![Neglected Things' Nav-My List](documentation/nav-my-list1.png)
+![Neglected Things' Nav-Inspire Me](documentation/nav-inspire-me1.png)
 
 
 **The “Sign In/Sign Up” section**
 Placed in the last part of the body of the home page the “Sign In/Sign Up” section calls users one more time to sign up or sign in to enjoy 
 exclusive content and personalized functionality - like a personal list of subjects chosen across the website.
 
-![Neglected Things' Sign In section](documentation/signin-section.png)
-![Neglected Things' Sign In section](documentation/signup-section.png)
+![Neglected Things' Sign In section](documentation/signin-section1.png)
+![Neglected Things' Sign In section](documentation/signup-section1.png)
 
 **The “Sign Up” page**
 The “Sign Up” page can be accessed from all main pages of the website. The subscription of new members is one of the main targets of the 
 site owner, along with video views.
 
-![Neglected Things' Sign Up page](documentation/signup-page.png)
+![Neglected Things' Sign Up page](documentation/signup-page1.png)
 
 **The “Sign In” page**
 The Sign-in page is temporarily displayed in the form of an external page due to the limited time available to submit the project. In the 
 future, activating the “sign in” function will result in the appearance of an additional drop-bar at the top of the home page under the “sign in” 
 link, with fields for login credentials thus avoiding the need for an external page.
 
-![Neglected Things' Sign In page](documentation/signin-page.png)
+![Neglected Things' Sign In page](documentation/signin-page1.png)
 
 ### Existing Features
 
@@ -195,8 +195,8 @@ link, with fields for login credentials thus avoiding the need for an external p
     using the respective linked icons. This integration has a vital role as use of social media will be encouraged to share knowledge among 
     the users with the opportunity of sharing experiences.
 
-![screenshot](documentation/footer.png)
-![Neglected Things Facebook page](documentation/facebook.png)
+![screenshot](documentation/footer2.png)
+![Neglected Things Facebook page](documentation/facebook1.png)
 
 - **Animation using transition**
 
@@ -204,12 +204,17 @@ link, with fields for login credentials thus avoiding the need for an external p
     Without the transition feature, transform would abruptly manipulate from one state to another. This smooth transition of the animation
     provides a pleasant experience to the users.
 
-![CSS feature](documentation/transition.png)
+    Check this animation at: [NEGLECTED THINGS](https://8000-felipeseibe-neglectedth-oqsf4jykay9.ws-eu92.gitpod.io/home.html)
+
+![CSS feature](documentation/header1.png)
+![CSS feature](documentation/header2.png)
 
 - **Images scales up**
 
     - The images displayed in the Menu scales up when the mouse hovers above them. This feature provides a pleasant experience to the users
     and gives the website a modern appearence.
+    
+    Check this animation at: [NEGLECTED THINGS](https://8000-felipeseibe-neglectedth-oqsf4jykay9.ws-eu92.gitpod.io/home.html#menu)
 
 ![screenshot](documentation/scales-up.png)
 
