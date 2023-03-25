@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: Lato, sans-serif;
-    font-size: 300;
+    font-size: 1em;
     color: #3a3a3a;
 }
 
@@ -45,9 +45,10 @@ h2 {
 #header-button {
     letter-spacing: 4px;
     font-size: 1.3vw;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
-
+    
     float: right;
     background-color: white;
     border: none;
@@ -132,7 +133,7 @@ h2 {
     background-color: black;
 
     border: none;
-    margin: 15px 2px;
+    margin: 15px 70px;
     padding: 10px 0px;
     cursor: pointer;
 }
@@ -526,6 +527,11 @@ footer {
     position: absolute;
 }
 
+#sign-up-page #cover-text-image h1 {
+    color: white;
+    text-align: center;
+}
+
 #sign-up-page #cover-text-image #spacing {
     letter-spacing: 2.75px;
 }
@@ -570,6 +576,7 @@ footer {
     width: 100%;
     height: 84vh;
     overflow: hidden;
+    
 }
 
 #sign-in-page #cover-text-image {
@@ -589,6 +596,11 @@ footer {
     left: 2.5em;
 
     position: absolute;
+}
+
+#sign-in-page #cover-text-image h1 {
+    color: white;
+    text-align: center;
 }
 
 .signin-form {
