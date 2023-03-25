@@ -2,90 +2,60 @@
 
 Return back to the [README.md](README.md) file.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) website was methodicaly and consistenly tested and re-tested 
+to assure users best experience. Code validation, browser compatibility, responsiveness, lighthouse audit and Git hub issues ('bugs') 
+were included in this testing process to comply with W3C standards. 
 
 ## Code Validation
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I decided to validate [NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) local code and the live site pages as
+shown bellow.
 
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Local file by input
 
-- If you are copying/pasting your HTML code, use this link: https://validator.w3.org/#validate_by_input
-- (*recommended*) If you are using the live deployed site pages, use this link: https://validator.w3.org/#validate_by_uri
+#### index.html file
+![Screenshot](documentation/w3c-validator-index.png)
 
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
-The URL will look something like this:
+#### home.html file
+![Screenshot](documentation/w3c-validator-home.png)
 
-- https://validator.w3.org/nu/?doc=https%3A%2F%2FFelipeSeiberlich.github.io%2Fneglected-things%2Findex.html
+#### signin.html file
+![Screenshot](documentation/w3c-validator-signin.png)
 
-Sample HTML code validation documentation (tables are extremely helpful!):
+#### signup.html file
+![Screenshot](documentation/w3c-validator-signup.png)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+### Live deployed site pages
+
+All HTML pages were validated as shown bellow.
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FFelipeSeiberlich.github.io%2Fneglected-things%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FFelipeSeiberlich.github.io%2Fneglected-things%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FFelipeSeiberlich.github.io%2Fneglected-things%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
+| Landing | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2F) | ![screenshot](documentation/validator-live-index.png)| Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fhome.html) | ![screenshot](documentation/validator-live-home.png) | Pass: No Errors |
+| Sign In | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fsign-in.html) | ![screenshot](documentation/validator-live-signin.png) | Pass: No Errors |
+| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fsign-up.html) | ![screenshot](documentation/validator-live-signup.png) | Pass: No Errors |
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) was validated using local code and the live site pages as
+shown bellow.
 
-- If you are copying/pasting your HTML code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
+### Local CSS file by input
 
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
+![Screenshot](documentation/w3c-validator-css1.png)
 
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FFelipeSeiberlich.github.io%2Fneglected-things
-
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+### Live deployed site
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FFelipeSeiberlich.github.io%2Fneglected-things) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css-validation-style.png) | Pass: 01 Errors |
 
 ## Browser Compatibility
 
