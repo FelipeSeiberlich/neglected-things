@@ -169,6 +169,8 @@ h2 {
 
 #skip-button h2 {
     color: white;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
 }
 
 #skip-button h2:hover {
@@ -177,8 +179,9 @@ h2 {
 
 #skip-button i {
     color: white;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, .6);
     font-size: 1.2em;
+    border-radius: 10px;
 }
 
 #skip-button i:hover {
