@@ -156,7 +156,7 @@ h2 {
     font-size: 110%;
     text-align: center;
     text-decoration: none;
-
+    
     margin: 0px 2px;
     padding: 5px 30px;
     cursor: pointer;
@@ -177,7 +177,7 @@ h2 {
 
 #skip-button i {
     color: white;
-    background-color: black;
+    background-color: #000000;
     font-size: 1.2em;
 }
 
