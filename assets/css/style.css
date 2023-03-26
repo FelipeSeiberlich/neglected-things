@@ -39,7 +39,7 @@ h2 {
     letter-spacing: 4px;
     font-size: 2vw;
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 
 #header-button {
@@ -82,7 +82,7 @@ h2 {
 }
 
 #header-button a:hover {
-    color: black;
+    color: #000;
 }
 
 #logo-image,
@@ -130,7 +130,7 @@ h2 {
     text-align: center;
     text-decoration: none;
 
-    background-color: black;
+    background-color: #000;
 
     border: none;
     margin: 15px 70px;
@@ -149,7 +149,7 @@ h2 {
 
 #cover-text-button a:hover {
     background-color: white;
-    color: black;
+    color: #000;
 }
 
 #skip-button {
@@ -206,7 +206,7 @@ footer {
     font-size: 160%;
     margin: 1px;
     padding: 10px 75px;
-    color: black;
+    color: #000;
 }
 
 .social-networks i:hover {
@@ -243,14 +243,14 @@ footer {
     text-align: center;
     text-decoration: none;
 
-    color: black;
+    color: #000;
 
     display: inline-block;
     padding: 20px; 
 }
 
 #home-image li a:hover {
-    background-color: #000000;
+    background-color: #000;
     color: white;
 }
 
@@ -455,7 +455,7 @@ footer {
 }
 
 #sign-in-up #in a:hover {
-    color: black;
+    color: #000;
 }
 
 #sign-in-up #in a::before {
@@ -483,7 +483,7 @@ footer {
 }
 
 #sign-in-up #up a:hover {
-    color: black;
+    color: #000;
 }
 
 #sign-in-up #up a::before {
@@ -555,7 +555,7 @@ footer {
     text-align: center;
     font-size: 16px;
 
-    background-color: black;
+    background-color: #000;
     color: #fafafa;
 
     margin-top: 20px;
@@ -566,7 +566,7 @@ footer {
 
 #sign-up-page #cover-text-image .join-button:hover {
     background-color: #fafafa;
-    color: black;
+    color: #000;
 }
 
 #sign-up-page #cover-text-image input {
@@ -622,7 +622,7 @@ footer {
     text-transform: uppercase;
     font-size: 16px;
 
-    background-color: black;
+    background-color: #000;
     color: #fafafa;
 
     margin-top: 20px;
@@ -633,7 +633,7 @@ footer {
 
 #sign-in-page #cover-text-image .join-button:hover {
     background-color: #fafafa;
-    color: black;
+    color: #000;
 }
 
 #sign-in-page #cover-text-image input {
@@ -733,7 +733,7 @@ footer {
         font-size: 120%;
         margin: 1px;
         padding: 10px 30px;
-        color: black;
+        color: #000;
     }
 
     #cover-text-video {
@@ -754,7 +754,7 @@ footer {
 
     #header-button {
         letter-spacing: 4px;
-        font-size: 3vw;
+        font-size: 3.8vw;
         text-align: center;
         text-decoration: none;
         float: right;
@@ -767,7 +767,7 @@ footer {
     }
 
     #logo-text {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 
     /* Home page - Menu */
