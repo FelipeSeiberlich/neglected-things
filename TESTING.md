@@ -66,40 +66,29 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 - [Chrome](https://www.google.com/chrome) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer) works as expected.
 - [Edge](https://www.microsoft.com/edge) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
-- [Safari](https://www.apple.com/safari/) presented some CSS differences on the background video (Index page) and in some styles.
+- [Safari](https://www.apple.com/safari/) presented some CSS differences on the background video (Index page), where a play button is being displayed and in some styles.
+
+Please, refer to screenshots provided for further clarification.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome.png) | Minor CSS differences |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge.png) | Minor CSS differences |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
+| Chrome | ![screenshot](documentation/chrome.png) | Minor CSS differences |
+| Firefox | ![screenshot](documentation/firefox.png) | Works as expected |
+| Edge | ![screenshot](documentation/edge.png) | Minor CSS differences |
+| Safari | ![screenshot](documentation/safari.png) | Minor CSS differences |
+| Safari | ![screenshot](documentation/safari-play-button.png) | CSS differences - play button displayed |
+| Safari | ![screenshot](documentation/safari-style-button.png) | CSS differences - round button |
 
 
 ## Responsiveness
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
+[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) live/deployed site was meticulously tested in the following devices types:
 - Mobile
 - Tablet
 - Desktop
+- XL Monitor
 
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "am responsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've tested my deployed project on multiple devices to check for responsiveness issues.
+I've tested my deployed project on the aforementioned devices to check for responsiveness issues.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -107,10 +96,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 | XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
-| x | x | repeat for any other tested sizes |
+
 
 ## Lighthouse Audit
 
