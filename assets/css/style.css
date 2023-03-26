@@ -220,7 +220,7 @@ footer {
     width: 100%;
 
     position: relative;
-    background: url(../images/home-image.png);
+    background: url(../images/home-image1.webp);
     background-position: center 30%;
 }
 
@@ -511,11 +511,6 @@ footer {
     overflow: hidden;
 }
 
-#sign-up-page #checkmate-image {
-    width: 100%;
-    height: 850px;  
-}
-
 #sign-up-page #cover-text-image {
     font-size: 170%;
     font-family: Lato, sans-serif;
@@ -585,11 +580,6 @@ footer {
     width: 100%;
     height: 84vh;
     overflow: hidden;
-}
-
-#sign-up-page #checkmate-image {
-    width: 100%;
-    height: 850px;  
 }
 
 #sign-in-page #cover-text-image {
