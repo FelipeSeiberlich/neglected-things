@@ -511,6 +511,11 @@ footer {
     overflow: hidden;
 }
 
+#sign-up-page #checkmate-image {
+    width: 100%;
+    height: 850px;  
+}
+
 #sign-up-page #cover-text-image {
     font-size: 170%;
     font-family: Lato, sans-serif;
@@ -580,7 +585,11 @@ footer {
     width: 100%;
     height: 84vh;
     overflow: hidden;
-    
+}
+
+#sign-up-page #checkmate-image {
+    width: 100%;
+    height: 850px;  
 }
 
 #sign-in-page #cover-text-image {
@@ -844,7 +853,7 @@ footer {
 
      /* Sign Up page - Form */
 
-     #sign-up-page #cover-text-image {
+        #sign-up-page #cover-text-image {
         font-size: 130%;
         font-family: Lato, sans-serif;
         text-transform: uppercase;
