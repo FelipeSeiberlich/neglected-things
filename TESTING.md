@@ -3,7 +3,7 @@
 Return back to the [README.md](README.md) file.
 
 [NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) website was methodicaly and consistenly tested and re-tested 
-to assure users best experience. Code validation, browser compatibility, responsiveness, lighthouse audit and Git hub issues ('bugs') 
+to assure the best user experience. Code validation, browser compatibility, responsiveness, lighthouse audit and Git hub issues ('bugs') 
 were included in this testing process to comply with W3C standards. 
 
 ## Code Validation
@@ -66,7 +66,8 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 - [Chrome](https://www.google.com/chrome) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer) works as expected.
 - [Edge](https://www.microsoft.com/edge) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
-- [Safari](https://www.apple.com/safari/) presented some CSS differences on the background video (Index page), where a play button is being displayed and in some styles.
+- [Safari](https://www.apple.com/safari/) presented some CSS differences on the background video (Index page), where a play button is displayed, and on the
+sign-in page where the login button is rounded.
 
 Please, refer to screenshots provided for further clarification.
 
@@ -81,7 +82,7 @@ Please, refer to screenshots provided for further clarification.
 
 ## Responsiveness
 
-[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) live/deployed site was meticulously tested in the following devices types:
+[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) live/deployed site was meticulously tested for the following device types:
 - Mobile
 - Tablet
 - Desktop
@@ -94,7 +95,7 @@ I've tested my deployed project on the aforementioned devices to check for respo
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
+| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Some scaling has minor issues |
 
 
 ## Lighthouse Audit
@@ -108,10 +109,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | landing | Desktop | ![screenshot](documentation/lighthouse-index-desktop.png) | Some minor warnings |
 | Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
 | Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
-| Sign In | Mobile | ![screenshot](documentation/lighthouse-signin-mobile.png) | Some minor warnings |
-| Sign in | Desktop | ![screenshot](documentation/lighthouse-signin-desktop.png) | Few warnings |
+| Sign In | Mobile | ![screenshot](documentation/lighthouse-signin-mobile.png) | Few warnings |
+| Sign in | Desktop | ![screenshot](documentation/lighthouse-signin-desktop.png) | Some minor warnings  | 
 | Sign Up | Mobile | ![screenshot](documentation/lighthouse-signup-mobile.png) | Slow response time due to large images |
-| Sign Up | Desktop | ![screenshot](documentation/lighthouse-signup-desktop.png) | Slow response time due to large images |
+| Sign Up | Desktop | ![screenshot](documentation/lighthouse-signup-desktop.png) | Some minor warnings |
 
 ## Bugs
 
