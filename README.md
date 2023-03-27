@@ -124,24 +124,23 @@ All sections in the navigation bar are internal links leading the user to a spec
 **The “About” Section**
 
 The “About” section on the Home page provides the user with brief details about “Neglected Things” and how the website is structured 
-to help people with different ‘neglected’ objectives achieve personal goals in fields such as personal care, reading habits, eating habits 
+to help people with different ‘neglected’ objectives and achieve personal goals in fields such as personal care, reading habits, eating habits 
 and others.
-There are two paragraphs providing a summary of the main information with a “click to read more” function below this text for those 
-users who prefer to learn more about the website before proceeding to a particular feature.  
+There are two paragraphs providing a summary of the main information with a “Sign In to read more” function below this text for those 
+users who prefer to learn more about the website before proceeding to a particular feature. At this stage of the project this link will
+send users to the Sign in and Sign up section. 
 Utilising the visual thematic of the chess board, the section is highlighted with a chess piece icon, and it is separated from the 
 adjacent “Steps” section by a related chess piece image.  
-Once implemented, a link at the end of this section will lead users to the About page for more information about Neglected Things' history.
-At this stage of the project the text in blue is to signalize the intention and illustrate how would look like.
 
 ![Neglected Things' Nav-About](documentation/nav-about1.png)
 
 **The “Steps” section**
 The “Steps” section is intentionally displayed side-by-side with the “About” section to provide a natural segue from the information 
-text to the starting text with the minimum information necessary.
-It has a parallel structure to the neighbouring “About” section but has a different, distinguishing chess piece icon, the pawn, which 
-is the staring piece in a game of chess. 
-Once implemented, a link at the end of this section will lead users to the Steps page for more information about the methodology followed by Neglected Things.
-At this stage of the project the text in blue is to signalize the intention and illustrate how would look like.
+text to the starting text with the minimum information necessary. The "Steps" section has a distinguishing chess piece icon, the pawn,
+which is the starting piece in a game of chess. 
+There are two paragraphs providing a summary of the main steps with a “Sign In to read more” function below this text for those 
+users who prefer to learn more about the website before proceeding to a particular feature. At this stage of the project this link will
+send users to the Sign in and Sign up section. 
 
 ![Neglected Things' Nav-Steps](documentation/nav-steps1.png)
 
