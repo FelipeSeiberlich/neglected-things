@@ -135,6 +135,7 @@ adjacent “Steps” section by a related chess piece image.
 ![Neglected Things' Nav-About](documentation/nav-about1.png)
 
 **The “Steps” section**
+
 The “Steps” section is intentionally displayed side-by-side with the “About” section to provide a natural segue from the information 
 text to the starting text with the minimum information necessary. The "Steps" section has a distinguishing chess piece icon, the pawn,
 which is the starting piece in a game of chess. 
@@ -145,14 +146,10 @@ send users to the Sign in and Sign up section.
 ![Neglected Things' Nav-Steps](documentation/nav-steps1.png)
 
 **The “Menu” section**
+
 The menu section is composed of 6 potentially neglected fields of our lives: Physical activities, reading habits, eating habits, feelings, 
 personal care, and how to learn.
-The design adopted for the Menu again references the chess board dynamic, placing two contrasted boxes side by side. One box with light 
-turquoise background colour hosts the text, and the other box hosts a corresponding image. The paired boxes link the users to the related page 
-and subject.
-The light turquoise background colour was intentionally selected for the first text box to soften the section's colour balance and to follow 
-the design structure.
-For this project only the first field - Physical activity, is linked to a page as an example.
+The design adopted for the Menu again references the chess board dynamic, placing two contrasted boxes side by side. One box with dark grey background colour hosts the text, and the other box hosts a corresponding image. 
 
 ![Neglected Things' Nav-Menu](documentation/nav-menu1.png)
 
@@ -170,6 +167,7 @@ their testimonials and reviews.
 
 
 **The “Sign In/Sign Up” section**
+
 Placed in the last part of the body of the home page the “Sign In/Sign Up” section calls users one more time to sign up or sign in to enjoy 
 exclusive content and personalized functionality - like a personal list of subjects chosen across the website.
 
@@ -177,12 +175,14 @@ exclusive content and personalized functionality - like a personal list of subje
 ![Neglected Things' Sign In section](documentation/signup-section1.png)
 
 **The “Sign Up” page**
+
 The “Sign Up” page can be accessed from all main pages of the website. The subscription of new members is one of the main targets of the 
 site owner, along with video views.
 
 ![Neglected Things' Sign Up page](documentation/signup-page1.png)
 
 **The “Sign In” page**
+
 The Sign-in page is temporarily displayed in the form of an external page due to the limited time available to submit the project. In the 
 future, activating the “sign in” function will result in the appearance of an additional drop-bar at the top of the home page under the “sign in” 
 link, with fields for login credentials thus avoiding the need for an external page.
