@@ -346,9 +346,9 @@ footer {
 }
 
 #container-image {
-    width: 400px;
-    height: 395px;
-    padding: 15px;
+    width: 345px;
+    height: 290px;
+    padding: 70px 15px 0 15px;
     margin: 0 auto;
 }
 
@@ -415,11 +415,10 @@ footer {
     object-fit: cover;
     transition: all 0.2s ease-in-out;
 }
-/*
+
 .banner:hover {
-    scale: 1.1;
+    transform: scale(1.1);
 }
-*/
 
 /* Home page - Forth session */
 
@@ -670,6 +669,13 @@ footer {
         float: left;
         padding: 0;
         height: 300px;
+    }
+
+    #container-image {
+        width: 345px;
+        height: 290px;
+        padding: 10px 15px 0 15px;
+        margin: 0 auto;
     }
 
     #strategy-image {

@@ -116,9 +116,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs
 
-No bugs found.
+There are no remaining bugs that I am aware of.
 
-### GitHub **Issues**
-
-No issues detected.
 
