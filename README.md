@@ -206,7 +206,7 @@ link, with fields for login credentials thus avoiding the need for an external p
     Without the transition feature, transform would abruptly manipulate from one state to another. This smooth transition of the animation
     provides a pleasant experience to the users.
 
-    Check this animation at: [NEGLECTED THINGS](https://8000-felipeseibe-neglectedth-oqsf4jykay9.ws-eu92.gitpod.io/home.html)
+    Check this animation at: [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglected-things/home.html)
 
 ![CSS feature](documentation/header1.png)
 ![CSS feature](documentation/header2.png)
@@ -216,7 +216,7 @@ link, with fields for login credentials thus avoiding the need for an external p
     - The images displayed in the Menu scales up when the mouse hovers above them. This feature provides a pleasant experience to the users
     and gives the website a modern appearence.
     
-    Check this animation at: [NEGLECTED THINGS](https://8000-felipeseibe-neglectedth-oqsf4jykay9.ws-eu92.gitpod.io/home.html#menu)
+    Check this animation at: [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglected-things/home.html#black-white)
 
 ![screenshot](documentation/scales-up.png)
 
